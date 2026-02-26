@@ -40,6 +40,12 @@ body {
   padding: 0 2rem;
 }
 
+.section-title {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
