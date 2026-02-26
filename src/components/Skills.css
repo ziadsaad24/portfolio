@@ -148,6 +148,11 @@
     padding: 4rem 1.5rem;
   }
 
+  .skills .section-subtitle {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
   .skills-grid {
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 1.5rem;
@@ -159,10 +164,47 @@
   }
 
   .skill-icon-wrapper {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .skill-name {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills {
+    padding: 3rem 1rem;
+  }
+
+  .skills .section-title {
+    font-size: 1.8rem;
+  }
+
+  .skills .section-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .skill-card {
+    padding: 1.8rem 1.3rem;
+    min-height: 140px;
+  }
+
+  .skill-icon-wrapper {
+    font-size: 2.8rem;
+  }
+
+  .skill-name {
+    font-size: 1.1rem;
+  }
+
+  .skill-level {
+    font-size: 0.7rem;
+    padding: 0.35rem 0.9rem;
   }
 }
